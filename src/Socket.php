@@ -18,7 +18,7 @@ class Socket
     private $resource;
 
     /**
-     * instanciate socket wrapper for given socket resource
+     * instantiate socket wrapper for given socket resource
      *
      * should usually not be called manually, see Factory
      *
@@ -41,7 +41,7 @@ class Socket
     }
 
     /**
-     * accept an incomming connection on this listening socket
+     * accept an incoming connection on this listening socket
      *
      * @return \Socket\Raw\Socket new connected socket used for communication
      * @throws Exception on error, if this is not a listening socket or there's no connection pending
@@ -122,7 +122,7 @@ class Socket
      * for the connection to be either accepted or rejected.
      *
      * The resulting socket resource will be set to non-blocking mode,
-     * regardless of its previous state and whether this method succedes or
+     * regardless of its previous state and whether this method succeeds or
      * if it fails. Make sure to reset with `setBlocking(true)` if you want to
      * continue using blocking calls.
      *

@@ -158,7 +158,7 @@ $factory->create($family, $type, $protocol);
 
 ### Socket
 
-As discussed above, the `Socket` class is merely an object-oriented wrapper around a socket resource. As such, it helps if you're familar with socket programming in general.
+As discussed above, the `Socket` class is merely an object-oriented wrapper around a socket resource. As such, it helps if you're familiar with socket programming in general.
 
 The recommended way to create a `Socket` instance is via the above [`Factory`](#factory).
 
